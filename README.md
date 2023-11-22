@@ -86,7 +86,20 @@ MA_data_path = ''
 
 ## 5. Citation
 
-If you found the study useful for you, please consider citing it.
+If you found the study useful for you, please consider citing it:
+
+```
+@ARTICLE{wang2023fNIRSNet,
+author  = {Wang, Zenghui and Fang, Jihong and Zhang, Jun},
+journal = {IEEE Transactions on Neural Systems and Rehabilitation Engineering}, 
+title   = {Rethinking Delayed Hemodynamic Responses for fNIRS Classification}, 
+year    = {2023},
+volume  = {31},
+number  = {},
+pages   = {4528-4538},
+doi={10.1109/TNSRE.2023.3330911}}
+```
+
 
 
 Our other work:
