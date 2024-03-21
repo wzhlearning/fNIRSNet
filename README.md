@@ -68,7 +68,11 @@ Github:  https://github.com/boyanglyu/nback_align
 
 ***LabelSmoothing.py*** : Label smoothing.
 
+4.1 Extract datasets using the mat files from the ***scripts*** folder. You will need to download the BBCI library from the dataset link. 
 
+4.2 Run ***KFold_Train.py*** to perform KFold-CV training. Run ***KFold_Result.py*** to obtain results.
+
+4.3 Run ***LOSO_Train.py*** to execute LOSO-CV training. Run ***LOSO_Result.py*** to obtain results.
 
 You need to specify the dataset and dataset path before training or test.
 
@@ -139,8 +143,8 @@ doi     = {10.1109/TNSRE.2022.3190431}}
 
 [2] S. Bak, J. Park, J. Shin, and J. Jeong, “Open-access fNIRS dataset for classifification of unilateral finger-and foot-tapping,” *Electronics*, vol. 8, no. 12, p. 1486, 2019.
 
-[3] Z. Wang, J. Zhang, X. Zhang, P. Chen, and B. Wang, “Transformer model for functional near-infrared spectroscopy classification,” IEEE J. Biomed. Health Inform., vol. 26, no. 6, pp. 2559–2569, 2022.
+[3] Z. Wang, J. Zhang, X. Zhang, P. Chen, and B. Wang, “Transformer model for functional near-infrared spectroscopy classification,” *IEEE J. Biomed. Health Inform.*, vol. 26, no. 6, pp. 2559–2569, 2022.
 
-[4] Z. Sun, Z. Huang, F. Duan, and Y. Liu, “A novel multimodal approach for hybrid brain–computer interface,” IEEE Access, vol. 8, pp. 89 909–89 918, 2020.
+[4] Z. Sun, Z. Huang, F. Duan, and Y. Liu, “A novel multimodal approach for hybrid brain–computer interface,” *IEEE Access*, vol. 8, pp. 89 909–89 918, 2020.
 
-[5] B. Lyu, T. Pham, G. Blaney, Z. Haga, A. Sassaroli, S. Fantini, and S. Aeron, “Domain adaptation for robust workload level alignment between sessions and subjects using fNIRS,” J. Biomed. Opt., vol. 26, no. 2, pp. 1–21, 2021.
+[5] B. Lyu, T. Pham, G. Blaney, Z. Haga, A. Sassaroli, S. Fantini, and S. Aeron, “Domain adaptation for robust workload level alignment between sessions and subjects using fNIRS,” *J. Biomed. Opt.*, vol. 26, no. 2, pp. 1–21, 2021.
