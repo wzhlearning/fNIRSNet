@@ -48,22 +48,32 @@ for n_sub in range(1, all_sub + 1):
         sub_f1.append(f1)
         sub_kap.append(kappa)
 
-        all_acc.append(acc)
-        all_pre.append(pre)
-        all_rec.append(rec)
-        all_f1.append(f1)
-        all_kap.append(kappa)
+        # old method for counting std (used in our paper). Recommended to use updated method.
+        # all_acc.append(acc)
+        # all_pre.append(pre)
+        # all_rec.append(rec)
+        # all_f1.append(f1)
+        # all_kap.append(kappa)
 
     sub_acc = np.array(sub_acc)
     sub_pre = np.array(sub_pre)
     sub_rec = np.array(sub_rec)
     sub_f1 = np.array(sub_f1)
     sub_kap = np.array(sub_kap)
+
+    # updated method for counting std
+    all_acc.append(np.mean(sub_acc))
+    all_pre.append(np.mean(sub_pre))
+    all_rec.append(np.mean(sub_rec))
+    all_f1.append(np.mean(sub_f1))
+    all_kap.append(np.mean(sub_kap))
+
     print('\nsub = %d : acc = %.2f ± %.2f' % (n_sub, np.mean(sub_acc), np.std(sub_acc)))
     print('sub = %d : pre = %.2f ± %.2f' % (n_sub, np.mean(sub_pre), np.std(sub_pre)))
     print('sub = %d : rec = %.2f ± %.2f' % (n_sub, np.mean(sub_rec), np.std(sub_rec)))
     print('sub = %d :  f1 = %.2f ± %.2f' % (n_sub, np.mean(sub_f1), np.std(sub_f1)))
     print('sub = %d : kap = %.2f ± %.2f' % (n_sub, np.mean(sub_kap), np.std(sub_kap)))
+
 
 
 print('\n=======> KFold-CV results of all subjects on ' + task[task_id])
