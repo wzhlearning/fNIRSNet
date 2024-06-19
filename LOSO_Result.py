@@ -20,7 +20,7 @@ all_rec = []
 all_f1 = []
 all_kap = []
 for n_sub in range(1, all_sub+1):
-    path = os.path.join('save',  task[task_id], 'LOSO-64', str(n_sub))
+    path = os.path.join('save',  task[task_id], 'LOSO', str(n_sub))
     val_acc = open(path + '/metrics.txt', "r")
     string = val_acc.readlines()[-1]
 
