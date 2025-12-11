@@ -4,6 +4,14 @@ This paper was accepted for publication in IEEE Transactions on Neural Systems a
 
 
 
+Our other work may also be useful to you：
+
+***Transformer Model for Functional Near-Infrared Spectroscopy Classification*** (https://ieeexplore.ieee.org/document/9670659), GitHub: https://github.com/wzhlearning/fNIRS-Transformer).
+
+***A General and Scalable Vision Framework for Functional Near-Infrared Spectroscopy Classification*** ( https://ieeexplore.ieee.org/abstract/document/9828508).
+
+
+
 ##  1.  Abstract
 
 Currently, deep neural networks do not consider the inherent delayed hemodynamic responses of fNIRS signals, which causes many optimization and application problems. Considering the kernel size and receptive field of convolutions, delayed hemodynamic responses as domain knowledge are introduced into fNIRS classification, and a concise and efficient model named fNIRSNet is proposed. We empirically summarize three design guidelines for fNIRSNet. fNIRSNet is friendly to practical applications and reduces the hardware cost of BCI systems.
