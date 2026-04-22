@@ -4,11 +4,13 @@ This paper was accepted for publication in IEEE Transactions on Neural Systems a
 
 
 
-Our other work may also be useful to you：
+🌟 Our other work may also be useful to you：
 
-***Transformer Model for Functional Near-Infrared Spectroscopy Classification*** (https://ieeexplore.ieee.org/document/9670659), GitHub: https://github.com/wzhlearning/fNIRS-Transformer).
+✅ 🆕 🎯 ***A Unified fNIRS Classification Framework Informed by Local Brain Activation Patterns*** (https://ieeexplore.ieee.org/document/11279989, https://github.com/wzhlearning/LoBrAFrame). 
 
-***A General and Scalable Vision Framework for Functional Near-Infrared Spectroscopy Classification*** ( https://ieeexplore.ieee.org/abstract/document/9828508).
+✅ ***Transformer Model for Functional Near-Infrared Spectroscopy Classification*** (https://ieeexplore.ieee.org/document/9670659), GitHub: https://github.com/wzhlearning/fNIRS-Transformer).
+
+✅ ***A General and Scalable Vision Framework for Functional Near-Infrared Spectroscopy Classification*** ( https://ieeexplore.ieee.org/abstract/document/9828508).
 
 
 
@@ -114,7 +116,22 @@ doi     = {10.1109/TNSRE.2023.3330911}}
 
 
 
-Our other work:
+🌟 Our other work:
+
+https://ieeexplore.ieee.org/document/11279989
+```
+@ARTICLE{Wang2025LoBrAFrame,
+author  = {Wang, Zenghui and Du, Songlin},
+journal = {IEEE Transactions on Industrial Informatics}, 
+title   = {A Unified fNIRS Classification Framework Informed by Local Brain Activation Patterns}, 
+year    = {2026},
+volume  = {22},
+number  = {3},
+pages   = {1871-1881},
+doi     = {10.1109/TII.2025.3632147}
+}
+```
+
 https://ieeexplore.ieee.org/document/9670659
 ```
 @ARTICLE{Wang2022Transformer,  
@@ -127,8 +144,6 @@ number  = {6},
 pages   = {2559-2569},  
 doi     = {10.1109/JBHI.2022.3140531}}
 ```
-
-
 
 https://ieeexplore.ieee.org/abstract/document/9828508
 ```
