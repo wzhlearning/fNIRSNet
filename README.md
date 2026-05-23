@@ -6,9 +6,11 @@ This paper was accepted for publication in IEEE Transactions on Neural Systems a
 
 🌟 Our other work may also be useful to you：
 
-✅ 🆕 🎯 ***A Unified fNIRS Classification Framework Informed by Local Brain Activation Patterns*** (https://ieeexplore.ieee.org/document/11279989, https://github.com/wzhlearning/LoBrAFrame). 
+✅ 🆕 🎯 ***A Unified fNIRS Classification Framework Informed by Local Brain Activation Patterns*** (https://ieeexplore.ieee.org/document/11279989, GitHub: https://github.com/wzhlearning/LoBrAFrame). 
 
-✅ ***Transformer Model for Functional Near-Infrared Spectroscopy Classification*** (https://ieeexplore.ieee.org/document/9670659), GitHub: https://github.com/wzhlearning/fNIRS-Transformer).
+✅ 🆕 🎯 ***Domain Knowledge Fused State Space Model for fNIRS-Based Brain–Computer Interfaces*** (https://ieeexplore.ieee.org/document/11522669, GitHub: https://github.com/wzhlearning/fNIRS4D). 
+
+✅ ***Transformer Model for Functional Near-Infrared Spectroscopy Classification*** (https://ieeexplore.ieee.org/document/9670659, GitHub: https://github.com/wzhlearning/fNIRS-Transformer).
 
 ✅ ***A General and Scalable Vision Framework for Functional Near-Infrared Spectroscopy Classification*** ( https://ieeexplore.ieee.org/abstract/document/9828508).
 
@@ -130,6 +132,19 @@ number  = {3},
 pages   = {1871-1881},
 doi     = {10.1109/TII.2025.3632147}
 }
+```
+
+https://ieeexplore.ieee.org/document/11522669
+```
+@ARTICLE{Wang2026fNIRS4D,
+author  = {Wang, Zenghui and Zhu, Delv and Zhang, Jun and Xiao, Guobao and Du, Songlin},
+journal = {IEEE Transactions on Instrumentation and Measurement}, 
+title   = {Domain Knowledge Fused State Space Model for fNIRS-Based Brain–Computer Interfaces}, 
+year    = {2026},
+volume  = {75},
+number  = {},
+pages   = {4008016-4008016},
+doi     = {10.1109/TIM.2026.3693454}}
 ```
 
 https://ieeexplore.ieee.org/document/9670659
